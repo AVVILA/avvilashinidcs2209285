@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark"  onclick="hideMenu()"></i>
+          
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="notes.html">NOTES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+
+        </div>
+        <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
+        
+      </nav>
+     <h1>Notes</h1>
+
+    </section>
+  
+    <!--------notes------->
+
+    <section class="notes">
+      
+      <h2>Computer Science</h2>
+      <p>Algorithm</p>
+      <a href="algorithm notes pdf1.pdf" download>Download Course Notes</a>
+    </section>
+    
+    <section class="notes">
+      <h2>Finance</h2>
+      <p>Accounting (financial record keeping)</p>
+      <a href="accountig notes pdf2.pdf" download>Download Course Notes</a>
+    </section>
+    
+    <section class="notes">
+      <h2>Economics & Civics</h2>
+      <p>Decision Making and Cost-Benefit Analysis</p>
+      <a href="economic pdf3.pdf" download>Download Course Notes</a>
+    </section>
+    
+    <section class="notes">
+      <h2>Hotel Management</h2>
+      <p>Management and Organizational Behavior</p>
+      <a href="hotel management pdf4,pdf.pdf" download>Download Course Notes</a>
+   </section>
+   
+    
+   
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Verifiable Degree was put up to answer the increasing demands of people wanting to buy a degree online and have their bachelor, masters and even doctorate degree without the burden of going to school and accomplishing bulk of coursework.  
+      With nextuniversitydegree.com you can choose and buy a degree online suited to your skills and needs.</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> by Aptitude University</p>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+<!-- ----Javascript for toggle menu-------- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+
+        function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+
+  </body>
+</html>

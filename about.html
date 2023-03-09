@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark"  onclick="hideMenu()"></i>
+          
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="notes.html">NOTES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+
+        </div>
+        <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
+        
+      </nav>
+     <h1>About Us</h1>
+
+    </section>
+    <!---------- about us content-------->
+    <section class="about us">
+
+      <div class="row">
+        <div class="about-col">
+        <h1>What you should know about online degrees </h1>
+        <p>With the advancements in technology, it has been easier for the persons that are working to enrich their education and to boost their career potential. You can buy a degree online, from the comfort of your home with just one click. It is high time to focus on
+    your career and to obtain a fast degree to certify your skills and to obtain a promotion or to switch jobs easier. You should know that if you buy a degree online you save time, effort and money. You do not have to pay for tuition costs, accommodation and transport costs and you can obtain the degree from the comfort of your home. You do not have to give up your job or to make changes in your schedule in order to be able to
+     attend courses; you have the opportunity to obtain a fast degree in order to enhance your career with less effort. If you have advanced skills and knowledge in a field of activity but you are frustrated you do not have a degree
+     to certify these skills, you have the opportunity to buy a degree online and boost your career potential. If you buy a degree online you can experience many advantages, we are here to help you with real degrees, from our universities that cost only a fraction of traditional learning.
+     You should not lose time and buy a degree online in order to achieve your professional desires. </p>
+     <a href="course.html"class= "hero-btn red-btn">EXPLORE NOW</a>
+     </div>
+        <div class="about-col">
+          <img src="images/about.jpg">
+        </div>
+        
+      </div>
+
+    </section>
+
+
+   
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Verifiable Degree was put up to answer the increasing demands of people wanting to buy a degree online and have their bachelor, masters and even doctorate degree without the burden of going to school and accomplishing bulk of coursework.  
+      With nextuniversitydegree.com you can choose and buy a degree online suited to your skills and needs.</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> by Aptitude University</p>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+<!-- ----Javascript for toggle menu-------- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+
+        function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+
+  </body>
+</html>
